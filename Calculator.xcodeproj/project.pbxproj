@@ -77,11 +77,8 @@
 		D8A8344E1B7E3DD100253DC6 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				D8A834511B7E3DD100253DC6 /* AppDelegate.swift */,
 				D8A834531B7E3DD100253DC6 /* ViewController.swift */,
 				D8A834551B7E3DD100253DC6 /* Main.storyboard */,
-				D8A834581B7E3DD100253DC6 /* Images.xcassets */,
-				D8A8345A1B7E3DD100253DC6 /* LaunchScreen.xib */,
 				D8A8344F1B7E3DD100253DC6 /* Supporting Files */,
 			);
 			path = Calculator;
@@ -90,6 +87,9 @@
 		D8A8344F1B7E3DD100253DC6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D8A834511B7E3DD100253DC6 /* AppDelegate.swift */,
+				D8A834581B7E3DD100253DC6 /* Images.xcassets */,
+				D8A8345A1B7E3DD100253DC6 /* LaunchScreen.xib */,
 				D8A834501B7E3DD100253DC6 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -156,6 +156,7 @@
 		D8A834441B7E3DD100253DC6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Diero Kreator";
 				TargetAttributes = {
@@ -411,6 +412,7 @@
 				D8A8346D1B7E3DD100253DC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D8A8346E1B7E3DD100253DC6 /* Build configuration list for PBXNativeTarget "CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +421,7 @@
 				D8A834701B7E3DD100253DC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
