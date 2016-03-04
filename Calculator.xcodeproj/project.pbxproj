@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		D8A834521B7E3DD100253DC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A834511B7E3DD100253DC6 /* AppDelegate.swift */; };
-		D8A834541B7E3DD100253DC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A834531B7E3DD100253DC6 /* ViewController.swift */; };
 		D8A834571B7E3DD100253DC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8A834551B7E3DD100253DC6 /* Main.storyboard */; };
 		D8A834591B7E3DD100253DC6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8A834581B7E3DD100253DC6 /* Images.xcassets */; };
 		D8A8345C1B7E3DD100253DC6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8A8345A1B7E3DD100253DC6 /* LaunchScreen.xib */; };
@@ -29,7 +28,6 @@
 		D8A8344C1B7E3DD100253DC6 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8A834501B7E3DD100253DC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8A834511B7E3DD100253DC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D8A834531B7E3DD100253DC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D8A834561B7E3DD100253DC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D8A834581B7E3DD100253DC6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D8A8345B1B7E3DD100253DC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -77,7 +75,6 @@
 		D8A8344E1B7E3DD100253DC6 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				D8A834531B7E3DD100253DC6 /* ViewController.swift */,
 				D8A834551B7E3DD100253DC6 /* Main.storyboard */,
 				D8A8344F1B7E3DD100253DC6 /* Supporting Files */,
 			);
@@ -157,7 +154,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Diero Kreator";
 				TargetAttributes = {
 					D8A8344B1B7E3DD100253DC6 = {
@@ -213,7 +210,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8A834541B7E3DD100253DC6 /* ViewController.swift in Sources */,
 				D8A834521B7E3DD100253DC6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +273,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -345,6 +342,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Calculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rojas.diego.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -355,6 +353,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Calculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rojas.diego.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -373,6 +372,7 @@
 				);
 				INFOPLIST_FILE = CalculatorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rojas.diego.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calculator.app/Calculator";
 			};
@@ -388,6 +388,7 @@
 				);
 				INFOPLIST_FILE = CalculatorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rojas.diego.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calculator.app/Calculator";
 			};
